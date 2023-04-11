@@ -4,41 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <title>CSS3 - Wikipedia, a enciclopedia livre</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
-        </div>
-    </div>
+    <header>   
+        <figure class="logo">
+            <img src="assets/images/wikipedia.png" alt="Logomarca wikipedia" width="200"/>
+        </figure>
+    </header>
 
     <div class="bar"></div>
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
+    <main class="content">
+        <nav class="sidebar">
+            <h2>Front-end básico</h2>
             <ul>
-                <li><a href="#">Links</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/HTML">HTML</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/HTML5">HTML 5 </a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Elemento_HTML">Elemento HTML</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Cascading_Style_Sheets">Cascading Style Sheets</a></li>
+                <li><a href="index.html">CSS3</a></li>
+                <li><a href="https://www.w3.org/">W3C</a></li>
             </ul>
-        </div>
+        </nav>
 
         <div class="main">
-            
-        </div>
-
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
+            <h1 id="inicio">CSS3</h1><hr>
+            <p>CSS3 é a terceira mais nova versão das famosas Cascading Style Sheets (ou simplesmente CSS), pela qual se define estilos para um projeto web (página de internet). Com efeitos de transição, imagem, imagem de fundo/background e outros, pode-se criar estilos únicos para seus projetos web, alterando diversos aspectos de design no layout da página.</p>
+            <p>A principal função do CSS3 é abolir as imagens de plano/Background de fundo, bordas arredondadas, apresentar transições e efeitos para criar animações de vários tipos, como um simples relógio de ponteiros.</p>
+            <p>Isso se deve aos novos browsers/navegadores que estão chegando com suporte à essa linguagem, como o Google Chrome, Opera, Internet Explorer 9, Safari e Mozilla Firefox. Assim, o CSS3 facilitará o trabalho dos profissionais de front-end e também a utilização de sites pelos usuários.</p>
+            <h2 id="diferenciacoes">Diferenciações</h2><hr>
+            <p>Como pode-se ver, foram necessárias quatro linhas de código para produzir bordas arredondadas num elemento HTML. Cada prefixo da propriedade border-radius serve para uma plataforma de browsers. A <code>-webkit</code>, para browsers como Chrome e Safari, <code>-moz</code> para o Firefox, <code>-o</code> para Opera e <code>-khtml</code> para Konqueror. <strong>Obs.</strong>: há browsers que não aceitam todas as propriedades CSS3. Para testar, utilize Teste de Seletores do CSS3.info.</p>
+            <h2 id="seletores">Seletores</h2><hr>
+            <p>Veja uma lista dos principais seletores (propriedades) CSS3 e seus exemplos:</p>
+            <h2 id="novidades">Novidades do CSS3</h2><hr>
+            <p>O CSS3 é extremamente capaz de construir animações que impressionam o mais avançado desenvolvedor web, tanto em 2 como em 3 dimensões. Os mais comuns são os efeitos de rotação, movimento e transição.</p>
+            <p>Existem, na web, empresas fazendo propaganda utilizando a criatividade e o poder dessa nova era de estilos.</p>
+            <h2 id="bibliografia">Bibliografia</h2><hr>
+            <ul class="marklist">
+                <li>Mauricio Samy Silva, CCS3 Desenvolva aplicações web profissionais com uso dos poderosos recursos de estilização das CSS3, ano 2012, Editora Novatec, ISBN 978-85-7522-289-8</li>
             </ul>
         </div>
-    </div>
 
-    <div class="footer">
+        <nav class="anchors">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#diferenciacoes">Diferenciações</a></li>
+                <li><a href="#seletores">Seletores</a></li>
+                <li><a href="#novidades">Novidades</a></li>
+                <li><a href="#bibliografias">Bibliografias</a></li>
+            </ul>
+        </nav>
+    </main>
 
-    </div>
+    <footer class="footer">
+
+    </footer>
 </body>
 </html>
